@@ -74,6 +74,28 @@ This project provides a secure leave management workflow with:
 
 
 
+\## Project Status
+
+
+
+| Area | Status |
+
+|---|---|
+
+| Requirements \& design | Planned |
+
+| Database schema | Planned |
+
+| Backend MVP | Planned |
+
+| Frontend MVP | Planned |
+
+| Azure deployment | Planned |
+
+| Security testing | Planned |
+
+
+
 \## Architecture
 
 
@@ -201,6 +223,20 @@ This project is aligned with the Azure Well-Architected Framework pillars: relia
 \- Audit logs for approval, rejection, policy changes and privileged operations
 
 \- Dependency, container and infrastructure scanning in CI/CD
+
+
+
+\## Observability
+
+
+
+\- Structured JSON logs with correlation ID
+
+\- Application Insights traces for API and database dependencies
+
+\- Dashboards for request rate, error rate, latency and queue depth
+
+\- Alerts for 5xx rate, P95 latency, failed logins and database saturation
 
 
 
